@@ -1,0 +1,3 @@
+# Bubble-Game is fully functioning Front end Mini project . 
+Asslam-o-alaikum ! My name is Faizan Amir . I am junior Front end developer . I made this game special using a concept called Event Bubbling in java script . I also use CSS and HTML .
+Event Bubbling : When we click on any div this action will rais event on that partcular div event find event lister on that div if lister could not find then rais event on the parent of previous div then there find event listener . This phenomenon is called Event Bubbling .
