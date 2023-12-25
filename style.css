@@ -1,0 +1,100 @@
+*{
+  margin  : 0 ;
+  padding : 0 ;
+  box-sizing : border-box ;
+  font-family : "Gilroy" ;
+}
+html,body{
+  height : 100% ;
+  width : 100% ;
+}
+#main {
+  height : 100% ;
+  width : 100% ;
+  background-color : rgb(179, 236, 179) ;
+  display : flex ;
+  align-items : center ;
+  justify-content : center ;
+}
+#panel{
+  height : 80% ;
+  width : 80% ;
+  background-color : white ;
+  border-radius : 10px ;
+  overflow : hidden ;
+
+}
+#paneltop{
+  width : 100% ;
+  height : 70px ;
+  background-color : rgba(73, 113, 73, 0.904) ;
+  display : flex ;
+  color : white ;
+  padding : 0px  20% ;
+  align-items : center ;
+  justify-content : space-between ;
+  transition : all ;
+  transition-duration: 2s ;
+  transition-timing-function: ease-in-out ;
+  cursor : pointer ;
+}
+#paneltop:hover{
+  background-color : green ;
+
+}
+.box{
+  padding : 8px 15px  ;
+  background-color : white ;
+  border-radius : 5px ;
+  color : rgba(73, 113, 73, 0.904) ;
+  font-weight : 700 ;
+  font-size : 20px ;
+}
+.elem{
+  
+  display : flex ;
+  align-items : center ;
+  gap : 10px ;
+
+  
+
+}
+#panelbottom{
+  padding : 20px ;
+  width : 100% ;
+  height : calc(100% - 70px);
+  display : flex ;
+  align-items : center ;
+  justify-content : center ;
+  flex-wrap: wrap ;
+  gap : 10px ;
+
+  
+}
+.bubbles{
+  display : flex ;
+  align-items : center ;
+  justify-content : center ;
+  height : 50px ;
+  width : 50px ;
+  background-color : rgba(73, 113, 73, 0.904) ;
+  border-radius : 50% ;
+  color : white ;
+  font-weight : 500;
+}
+.elem h3{
+  font-weight : 500 ; 
+  font-size : 20px ;
+}
+.bubbles:hover{
+  background-color : green ;
+  cursor : pointer ;
+}
+
+
+
+
+
+
+
+
